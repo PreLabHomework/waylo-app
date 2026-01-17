@@ -67,7 +67,7 @@ See [PROJECT-STRUCTURE.md](./PROJECT-STRUCTURE.md) for detailed explanation.
 
 ## Launch Strategy
 
-**Initial Launch:** Austin or Miami (high tourism, manageable size)
+**Initial Launch:** Austin or Saint Louis (high tourism, manageable size)
 **Expansion:** Major US cities (Chicago, LA, NYC)
 **Final Goal:** European markets
 
@@ -78,4 +78,4 @@ Documentation for each development phase is located in `/docs`. Start with Phase
 ---
 
 **Last Updated:** January 2025
-**Current Phase:** Phase 0 - Foundation & Planning
+**Current Phase:** Phase 1
