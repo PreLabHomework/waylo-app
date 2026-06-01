@@ -1,16 +1,16 @@
 # Waylo
 
-Waylo is a budget focused travel companion app built for travelers who need practical information quickly: restrooms, parking, low cost food, hostels, offline access, and local tips.
+Waylo is an unfinished budget focused travel companion app prototype built around practical, location based travel information such as restrooms, parking, low cost food, hostels, offline access, and local tips.
 
-The idea behind Waylo is simple: most travel apps are good at navigation or polished recommendations, but they do not always answer the small questions that matter when traveling on a budget. Waylo is designed around crowdsourced, location based information that helps users make cheaper, safer, and faster decisions while moving through a city.
+The idea behind Waylo is simple: most travel apps are good at navigation or polished recommendations, but they do not always answer the smaller questions that matter when traveling on a budget. Waylo was designed around crowdsourced, location based information that helps users make cheaper, safer, and faster decisions while moving through a city.
 
 Tagline: Where Google Maps stops, Waylo starts.
 
 ## Project status
 
-Waylo is an early stage mobile app prototype. The repository currently contains planning documents, workflow notes, design structure, and development direction for the app.
+Waylo is an unfinished early stage mobile app prototype. Development reached Phase 3, focused on maps and location based features, before the project was paused.
 
-Current focus: maps, location data, crowdsourced place records, and the core mobile experience.
+The repository currently documents the product concept, planned architecture, workflow, UI direction, and early development structure. It is not a finished or deployed application.
 
 ## Planned features
 
@@ -46,13 +46,38 @@ Current focus: maps, location data, crowdsourced place records, and the core mob
 - SQLite for offline storage
 - OpenAI API for budget planning features
 
+My role
+
+I was the lead developer for Waylo. My work focused on the mobile app architecture, technical planning, React Native development direction, Firebase integration, location based features, and turning the product idea into a working prototype.
+
+Team
+Robert Emrich: Project lead
+Hamza Abu Khalaf: Lead developer
+Carlos Daners: Marketing and growth
+Development direction
+
+The intended development path was:
+
+Build the core React Native app structure.
+Implement map based place discovery.
+Connect Firestore for crowdsourced location records.
+Add offline saved data using SQLite.
+Create contribution and review workflows.
+Add AI assisted budget planning after the core travel features were stable.
+
+Development was paused during Phase 3, so later features remain planned rather than complete.
+
+Notes
+
+This repository is public to document the app concept, planned architecture, early development workflow, and product direction. It should be treated as a paused prototype, not a finished travel platform.
+
 ## Repository structure
 
 ```text
 waylo-app/
-├── docs/             project planning and phase documentation
-├── design/           UI/UX designs, wireframes, and assets
-├── src/              application source code
-├── WORKFLOW.md       development phases and workflow
-├── PROJECT-STRUCTURE.md
+├── docs/                 project planning and phase documentation
+├── design/               UI/UX designs, wireframes, and assets
+├── src/                  application source code
+├── WORKFLOW.md           development phases and workflow
+├── PROJECT-STRUCTURE.md  repository structure notes
 └── README.md
