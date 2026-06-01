@@ -1,81 +1,58 @@
-# Waylo - Budget Travel Companion App
+# Waylo
 
-**Tagline:** Where Google Maps stops, Waylo starts.
+Waylo is a budget focused travel companion app built for travelers who need practical information quickly: restrooms, parking, low cost food, hostels, offline access, and local tips.
 
-## Overview
+The idea behind Waylo is simple: most travel apps are good at navigation or polished recommendations, but they do not always answer the small questions that matter when traveling on a budget. Waylo is designed around crowdsourced, location based information that helps users make cheaper, safer, and faster decisions while moving through a city.
 
-Waylo is a real-time travel companion built for budget-conscious explorers. It helps travelers find affordable, safe, and accessible spots like restrooms, parking, food, and hostels, all backed by crowdsourced reviews and real-time updates.
+Tagline: Where Google Maps stops, Waylo starts.
 
-## Core Features
+## Project status
 
-- 🚻 Public restroom locations
-- 🅿️ Parking spots with real-time pricing
-- 🍽️ Budget-friendly restaurants sorted by price
-- 🏨 Hostels and budget accommodations
-- 📴 Offline mode for areas without signal
-- ⭐ Community reviews and upvote system
-- 🎯 AI-powered budget planner
-- 🏆 Gamification with points and rewards
-- 💬 Anonymous traveler-to-traveler messaging
+Waylo is an early stage mobile app prototype. The repository currently contains planning documents, workflow notes, design structure, and development direction for the app.
 
-## Target Users
+Current focus: maps, location data, crowdsourced place records, and the core mobile experience.
 
-- Solo female travelers
-- Backpackers and digital nomads
+## Planned features
+
+- Public restroom discovery
+- Parking locations and price notes
+- Budget friendly restaurants
+- Hostel and low cost accommodation references
+- Offline saved information
+- Community reviews and upvotes
+- Anonymous traveler tips
+- AI assisted budget planning
+- Gamified contribution system
+
+## Target users
+
 - College students
-- Budget-conscious travelers
-- First-time international travelers
-- Travelers with accessibility needs
+- Backpackers
+- Budget conscious travelers
+- First time international travelers
+- Solo travelers
+- Digital nomads
+- Travelers looking for practical local information
 
-## Tech Stack
+## Planned tech stack
 
-**Frontend:**
-- React Native with Expo
+- React Native
+- Expo
 - React Navigation
-
-**Backend:**
-- Firebase (Auth, Firestore, Storage)
+- Firebase Authentication
+- Firestore
+- Firebase Storage
 - Google Maps API
-- OpenAI API (AI features)
+- SQLite for offline storage
+- OpenAI API for budget planning features
 
-**Database:**
-- Firestore (real-time data)
-- SQLite (offline storage)
+## Repository structure
 
-## Project Status
-
-🚧 **Currently in Development** - Phase 3: Maps & Locations (Phases 0-2 Complete!)
-
-See [WORKFLOW.md](./WORKFLOW.md) for detailed development phases.
-
-## Repository Structure
-```
+```text
 waylo-app/
-├── docs/           # All documentation organized by phase
-├── design/         # UI/UX designs, wireframes, assets
-├── src/            # Source code (to be created)
-└── README.md       # This file
-```
-
-See [PROJECT-STRUCTURE.md](./PROJECT-STRUCTURE.md) for detailed explanation.
-
-## Team
-
-- **Robert Emrich** - Project Lead
-- **Hamza Abu Khalaf** - Lead Developer
-- **Carlos Daners** - Marketing & Growth
-
-## Launch Strategy
-
-**Initial Launch:** Austin or Saint Louis (high tourism, manageable size)
-**Expansion:** Major US cities (Chicago, LA, NYC)
-**Final Goal:** European markets
-
-## Getting Started
-
-Documentation for each development phase is located in `/docs`. Start with Phase 0.
-
----
-
-**Last Updated:** January 2025
-**Current Phase:** Phase 3
+├── docs/             project planning and phase documentation
+├── design/           UI/UX designs, wireframes, and assets
+├── src/              application source code
+├── WORKFLOW.md       development phases and workflow
+├── PROJECT-STRUCTURE.md
+└── README.md
